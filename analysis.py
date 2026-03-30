@@ -7,6 +7,7 @@ df = pd.read_csv(url)
 
 # Basic cleaning
 df = df[['trip_distance', 'fare_amount']].dropna()
+df = df[(df['trip_distance'] > 0) & (df['fare_amount'] > 0)]
 
 # Summary stats
 print("Summary Statistics:")
