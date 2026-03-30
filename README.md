@@ -19,4 +19,12 @@ This project analyzes NYC Airbnb and trip data to identify pricing trends and ke
 
 ## How to Run
 1. Install dependencies:
+## Project Structure
 
+- `analysis.py` → Main data analysis script  
+- `analysis.ipynb` → Notebook version (in progress)  
+- `results.md` → Insights and interpretation  
+
+## Notes
+
+This project is part of my data science portfolio, focused on applying analytical techniques to real-world datasets and communicating insights clearly.
